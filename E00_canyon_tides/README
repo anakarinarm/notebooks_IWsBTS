@@ -1,0 +1,24 @@
+0 Experiment: "Big domin forced with tides"
+================================================
+
+Configure and compile the code:
+  cd build
+  ../../../tools/genmake2 -mods ../code [-of my_platform_optionFile]
+  make depend
+  make
+  cd ..
+
+To run:
+  cd run
+  ln -s ../input/* .
+  ln -s ../build/mitgcmuv .
+  ./mitgcmuv > output.txt
+  cd ..
+
+There is comparison output in:
+  results/output.txt
+
+Comments:
+  The input data is real*8 and generated using the MATLAB script
+  input/gendata.m
+

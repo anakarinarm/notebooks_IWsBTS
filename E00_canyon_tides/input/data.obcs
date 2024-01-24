@@ -1,0 +1,7 @@
+# Open-boundaries
+ &OBCS_PARM01
+ OB_Iwest=48*4*1,
+ OB_Jsouth=32*4*1,
+ OB_Jnorth=32*4*-1,
+ &
+
