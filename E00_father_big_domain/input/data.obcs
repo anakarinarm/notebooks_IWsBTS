@@ -1,0 +1,12 @@
+# Open-boundaries
+ &OBCS_PARM01
+ useOBCStides = .TRUE.,
+ tidalperiod = 44712.,
+ OBSamFile = 'OBSam.bin',
+ OBNamFile = 'OBNam.bin',
+ OBWamFile = 'OBWam.bin',
+ OBSphFile = 'OBSph.bin',
+ OBNphFile = 'OBNph.bin',
+ OBWphFile = 'OBWph.bin', 
+ &
+
